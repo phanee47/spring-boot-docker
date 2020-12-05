@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+\apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: jhooq-springboot
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: springboot
-          image: phanee47/docker-demo:jhooq-docker-demo
+          image: phanee47/docker-demo:latest
           ports:
             - containerPort: 8080
           env:
